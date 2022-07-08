@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:id="@+id/av"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:layout_marginBottom="25dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="wrap_content"
+                android:layout_height="57dp"
+                android:layout_gravity="center_horizontal"
+                android:fontFamily="@font/overlock"
+                android:padding="5dp"
+                android:shadowColor="@color/black"
+                android:shadowDx="0"
+                android:shadowDy="15"
+                android:shadowRadius="18"
+                android:text="Call"
+                android:textColor="@color/white"
+                android:textSize="40dp" />
+
+        </LinearLayout>
+
+        <EditText
+            android:id="@+id/number"
+            android:fontFamily="@font/poppins"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_margin="20dp"
+            android:textSize="24dp"
+            android:hint="Type Phone Number Here!"
+            android:background="@drawable/rr"
+            android:shadowRadius="25"
+            android:inputType="numberDecimal"
+            android:paddingLeft="25dp"
+            android:textColor="#000000" />
+
+        <LinearLayout
+            android:id="@+id/call"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center_horizontal">
+
+            <com.airbnb.lottie.LottieAnimationView
+                android:layout_width="200dp"
+                android:layout_height="200dp"
+                app:lottie_autoPlay="true"
+                app:lottie_loop="true"
+                app:lottie_rawRes="@raw/calling" />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>
+
+
+

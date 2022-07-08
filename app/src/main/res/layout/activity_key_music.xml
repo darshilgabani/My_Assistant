@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#212121"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/av"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="57dp"
+            android:layout_marginTop="25dp"
+
+            android:layout_gravity="center_horizontal"
+            android:fontFamily="@font/overlock"
+            android:padding="5dp"
+            android:shadowColor="@color/black"
+            android:shadowDx="0"
+            android:shadowDy="15"
+            android:shadowRadius="18"
+            android:text="Music Apps"
+            android:textColor="@color/white"
+            android:textSize="40dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:id="@+id/spotify"
+                android:src="@drawable/spotify"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:id="@+id/gaana"
+                android:src="@drawable/gaana"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:id="@+id/ytmusic"
+                android:src="@drawable/ytmusic"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:id="@+id/applemusic"
+                android:src="@drawable/applemusic"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="10dp"
+                android:id="@+id/amazonmusic"
+                android:src="@drawable/amazonmusic"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="5dp"
+                android:id="@+id/jiosavan"
+                android:src="@drawable/jiosavan"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="15dp"
+                android:id="@+id/hungama"
+                android:src="@drawable/hungama"/>
+
+            <ImageView
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:padding="15dp"
+                android:id="@+id/wynk"
+                android:src="@drawable/wynk"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

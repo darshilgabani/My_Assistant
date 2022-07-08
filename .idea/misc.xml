@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="app/src/main/res/drawable/rr.xml" value="0.159" />
+        <entry key="app/src/main/res/layout/activity_category.xml" value="0.209765625" />
+        <entry key="app/src/main/res/layout/activity_google.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/activity_google_page.xml" value="0.209765625" />
+        <entry key="app/src/main/res/layout/activity_key_category.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/activity_key_google.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/activity_key_music.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/activity_key_shopping.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/activity_key_socialmedia.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/activity_lang_translate.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_lang_vtot.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_main.xml" value="0.209765625" />
+        <entry key="app/src/main/res/layout/activity_music.xml" value="0.2537037037037037" />
+        <entry key="app/src/main/res/layout/activity_pcall.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_phone.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_psms.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_ptranslate.xml" value="0.1816123188405797" />
+        <entry key="app/src/main/res/layout/activity_pvtot.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/activity_replace.xml" value="0.22109375" />
+        <entry key="app/src/main/res/layout/activity_search_type.xml" value="0.16981132075471697" />
+        <entry key="app/src/main/res/layout/activity_select_language.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_shopping.xml" value="0.1970705321917598" />
+        <entry key="app/src/main/res/layout/activity_socialmedia.xml" value="0.209765625" />
+        <entry key="app/src/main/res/layout/activity_splash.xml" value="0.209765625" />
+        <entry key="app/src/main/res/layout/activity_wlcmpage.xml" value="0.2788336181640625" />
+        <entry key="app/src/main/res/layout/call_activity_main.xml" value="0.165" />
+        <entry key="app/src/main/res/layout/color_spinner_layout.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/comment.xml" value="0.209765625" />
+        <entry key="app/src/main/res/layout/custom_dialog.xml" value="0.209765625" />
+        <entry key="app/src/main/res/layout/fragment_contact.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/fragment_contact_.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/fragment_recent_call_.xml" value="0.28072916666666664" />
+        <entry key="app/src/main/res/layout/fragment_recentcall.xml" value="0.29375" />
+        <entry key="app/src/main/res/layout/item_layout.xml" value="0.2947916666666667" />
+        <entry key="app/src/main/res/layout/spinner_dropdown_layout.xml" value="0.11822916666666666" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11 (2)" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.1003565100928054" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

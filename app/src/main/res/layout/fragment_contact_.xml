@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".call_search.Contact_Fragment">
+
+    <EditText
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="3dp"
+        android:drawableLeft="@drawable/search"
+        android:hint="Search Here.!"
+        android:padding="3dp"
+        android:background="@drawable/rr"/>
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rv"
+        android:layout_width="match_parent"
+        android:layout_below="@+id/search"
+        android:layout_height="match_parent" />
+</RelativeLayout>
+
